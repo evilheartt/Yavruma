@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(#fff5f7, #ffffff);
+  color: #444;
+  line-height: 1.8;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+  color: #e6397e;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+.scroll {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #e6397e;
+}
+
+.section p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  width: 280px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.letter {
+  background: #fff0f5;
+}
+
+.letter h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #e6397e;
+}
+
+.letter p {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.signature {
+  display: block;
+  margin-top: 30px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+}
+
+footer {
+  padding: 30px;
+  background: #ffe4ec;
+  font-size: 0.9rem;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 1s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
